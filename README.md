@@ -17,3 +17,19 @@ Aplicación web orientada a la administración de una empresa de logística,perm
 - Login con contraseñas hasheadas (`password_hash`).
 - Registro de usuarios solo para empleados previamente cargados por el administrador, con reCAPTCHA.
 - Recuperación de contraseña por mail con enlace temporal (1 hora).
+
+## Estructura
+
+| Archivo / carpeta | Función |
+|---|---|
+| `LoginCamiones.php`, `registro.php`, `registro_process.php` | Login y registro |
+| `olvido_contrasena.html`, `enviar_correo.php`, `restablecer.php`, `actualizar_contrasena.php` | Recuperación de contraseña |
+| `admin_index.php`, `admin.php` | Panel del administrador |
+| `empleado.php`, `estado_personal.php` | Panel del empleado |
+| `alta_viaje.php`, `guardar_viaje.php`, `gestionar_viaje.php`, `viajes.php` | Viajes |
+| `form_camiones.php`, `form_empleados.php` | Formularios de camiones y empleados |
+| `class_*.php` | Clases con las consultas a la base de datos |
+| `notificacion.php`, `marcar_leidas.php`, `funciones.php` | Notificaciones |
+| `conexion.php` | Conexión a MySQL |
+| `PHPMailer/` | Librería de envío de correos |
+| `fotos_viajes/`, `imagenes/`, `js/`, `*.css` | Recursos |
