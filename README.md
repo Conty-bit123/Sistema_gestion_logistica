@@ -18,6 +18,10 @@ Aplicación web orientada a la administración de una empresa de logística,perm
 - Registro de usuarios solo para empleados previamente cargados por el administrador, con reCAPTCHA.
 - Recuperación de contraseña por mail con enlace temporal (1 hora).
 
+## 🛠️ Tecnologías
+
+PHP · MySQL (mysqli) · HTML/CSS · JavaScript/jQuery · PHPMailer · Google reCAPTCHA
+
 ## Estructura
 
 | Archivo / carpeta | Función |
