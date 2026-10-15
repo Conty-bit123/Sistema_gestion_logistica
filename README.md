@@ -4,6 +4,9 @@ Aplicación web orientada a la administración de una empresa de logística,perm
 Es un proyecto académico que busca resolver problemas típicos de la gestión manual: información descentralizada, datos duplicados, demoras administrativas y poca trazabilidad.
 
 ## Funcionalidades
+
+El administrador gestiona camiones, empleados y viajes; el empleado consulta sus viajes y sube fotos de entrega.
+
 **Administrador**
 - Alta, búsqueda y gestión de camiones (patente, modelo, seguro, VTV, estado).
 - Alta y gestión de empleados.
