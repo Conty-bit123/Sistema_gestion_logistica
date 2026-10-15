@@ -41,3 +41,7 @@ Base `logistica`, con estas tablas: `usuarios`, `empleados`, `camiones`, `viajes
 | `conexion.php` | Conexión a MySQL |
 | `PHPMailer/` | Librería de envío de correos |
 | `fotos_viajes/`, `imagenes/`, `js/`, `*.css` | Recursos |
+
+## Autores
+
+Priscilla Guerrero y Ezequiel Larroza
